@@ -25,4 +25,6 @@ h2 {
 .spacing {
     max-width: 600px;
     display: flex;
+    flex-direction: column;
+
 }
