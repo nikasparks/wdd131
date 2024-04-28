@@ -1,5 +1,5 @@
 * {
-    max-width: fit-content;
+    max-width: 980px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
@@ -8,6 +8,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    line-height: 1.5;
+    margin: 50px;
 }
 
 header{
@@ -15,16 +17,35 @@ header{
     flex-direction: column;
     align-items: center;
     align-self: center;
+    
+}
+h1, h2 {
+    text-transform: uppercase;
+    margin: auto;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 2em;
+    letter-spacing: 3px;
+
 }
 
 h2 {
     color: #006eb6;
+    font-size: .75em;
+    letter-spacing: 4px;
+
 }
 
+img {
+    width: 150px;;
+}
 
 .spacing {
     max-width: 600px;
     display: flex;
     flex-direction: column;
+    margin: 50px 100px;
 
 }
