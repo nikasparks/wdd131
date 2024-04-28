@@ -1,3 +1,28 @@
 * {
+    max-width: fit-content;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+h2 {
+    color: #006eb6;
+}
+
+
+.spacing {
+    max-width: 600px;
+    display: flex;
 }
