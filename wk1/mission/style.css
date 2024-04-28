@@ -10,6 +10,15 @@ body {
     align-items: center;
     line-height: 1.5;
     margin: 50px;
+    border: 1px solid gray;
+}
+
+.spacing {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 80px 100px 0px;
+
 }
 
 header{
@@ -19,6 +28,7 @@ header{
     align-self: center;
     
 }
+
 h1, h2 {
     text-transform: uppercase;
     margin: auto;
@@ -38,14 +48,14 @@ h2 {
 
 }
 
+p.first {
+    border-top: 1px solid lightgray;
+    padding-top: 50px;
+    margin-top: auto;
+}
+
 img {
-    width: 150px;;
+    width: 150px;
+    margin: 30px 0px;
 }
 
-.spacing {
-    max-width: 600px;
-    display: flex;
-    flex-direction: column;
-    margin: 50px 100px;
-
-}
