@@ -77,3 +77,8 @@ img {
 .dark h2 {
     color: #4F9ACF;
 }
+
+.dark #theme-select {
+    background-color: #333;
+    color: white;
+}
