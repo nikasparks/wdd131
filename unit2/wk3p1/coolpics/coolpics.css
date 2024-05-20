@@ -70,10 +70,6 @@ img {
     object-fit: cover;
 }
 
-.hide {
-	display: none;
-}
-
 .button {
     background-color: var(--primary-color);
     color: var(--text-light);
@@ -100,7 +96,7 @@ img {
     .button{
         display: none;
     }
-    .menu {
+    nav ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
