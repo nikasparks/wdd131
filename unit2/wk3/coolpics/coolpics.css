@@ -16,7 +16,7 @@ body {
     
 }
 main {
-    /* display: grid; */
+    display: grid;
 }
 h1 {
     font-size: 5rem;
@@ -40,7 +40,7 @@ header, footer {
 }
 
 .gallery, nav {
-    max-width: 50%;
+    /* max-width: 50%; */
 }
 
 ul {
