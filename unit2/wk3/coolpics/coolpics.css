@@ -13,19 +13,20 @@ body {
     font-family: var(--primary-font);
     text-align: center;
     font-size: 1.5rem;
+    
+}
+main {
+    /* display: grid; */
 }
 h1 {
     font-size: 5rem;
+    margin: 1rem;
 }
 h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 h1, h2 {
     font-family: var(--secondary-font);
-}
-
-header {
-    text-align: center;
 }
 
 footer {
@@ -38,8 +39,18 @@ header, footer {
     padding: 1rem;
 }
 
+.gallery, nav {
+    max-width: 50%;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
 li {
     list-style-type: none;
+    padding: .5rem;
 }
 
 a {
@@ -84,6 +95,10 @@ img {
     }
     .button{
         display: none;
+    }
+    nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 
 }
