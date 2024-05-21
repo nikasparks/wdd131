@@ -72,6 +72,35 @@ img {
     width: 250px;
     object-fit: cover;
 }
+.viewer {
+    display: grid;
+    grid-template-rows: .25fr 2fr;
+    row-gap: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+
+}
+
+.close-viewer {
+    color: var(--text-light);
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;
+    font-size: 2rem;
+    padding: 20px 3%;
+    max-height: 70%;
+    justify-self: right;
+    align-self: end;
+}
+
+.viewer img {
+    max-height: 100%;
+    justify-self: center;
+    padding: 5%;
+}
 
 .hide {
 	display: none;
@@ -98,6 +127,12 @@ img {
     .menu {
         display: flex;
         flex-direction: row;
+    }
+    .viewer {
+        top: 5%;
+        left: 5%;
+        bottom: 15%;
+        right: 5%;
     }
 
 }
