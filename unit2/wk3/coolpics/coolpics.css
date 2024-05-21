@@ -17,6 +17,7 @@ body {
 }
 main {
     display: grid;
+    justify-content: center;
 }
 h1 {
     font-size: 5rem;
@@ -39,8 +40,9 @@ header, footer {
     padding: 1rem;
 }
 
-.gallery, nav {
-    /* max-width: 50%; */
+nav{
+    display: grid;
+    justify-content: center;
 }
 
 ul {
@@ -51,6 +53,7 @@ ul {
 li {
     list-style-type: none;
     padding: .5rem;
+    margin: 0px 3rem;
 }
 
 a {
