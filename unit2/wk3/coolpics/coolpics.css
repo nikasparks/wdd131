@@ -89,6 +89,10 @@ img {
     .gallery {
         grid-template-columns: 1fr 1fr;
     }
+    .menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
 
 }
 
@@ -100,9 +104,9 @@ img {
     .button{
         display: none;
     }
-    .menu {
+    /* .menu {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
+    } */
 
 }
