@@ -24,3 +24,17 @@ function handleResize() {
       <img src="${pic}" alt="${alt}">
       </div>`;
   }
+
+  function viewHandler(event) {
+	// create a variable to hold the element that was clicked on from event.target
+    const picName = event.target
+	// get the src attribute from that element and 'split' it on the "-"
+
+	// construct the new image file name by adding "-full.jpeg" to the first part of the array from the previous step
+
+	// insert the viewerTemplate into the top of the body element
+	// (element.insertAdjacentHTML("afterbegin", htmltoinsert))
+
+	// add a listener to the close button (X) that calls a function called closeViewer when clicked
+
+}
