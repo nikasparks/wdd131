@@ -26,11 +26,7 @@ function handleResize() {
   }
 
 function closeViewer(event){
-    const closeButton = event.currentTarget;
-    console.log(closeButton)
-    console.log(event.target)
     const parent = event.target.closest('div');
-    console.log(parent)
     parent.remove();
 }
 
