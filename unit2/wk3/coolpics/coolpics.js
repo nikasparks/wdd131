@@ -25,7 +25,16 @@ function handleResize() {
       </div>`;
   }
 
-  function viewHandler(event) {
+function closeViewer(event){
+    const closeButton = event.currentTarget;
+    console.log(closeButton)
+    console.log(event.target)
+    const parent = event.target.closest('div');
+    console.log(parent)
+    parent.remove();
+}
+
+function viewHandler(event) {
 	// create a variable to hold the element that was clicked on from event.target
     const picInfo = event.target;
 	// get the src attribute from that element and 'split' it on the "-"
@@ -34,7 +43,7 @@ function handleResize() {
     console.log(picSorce)
     const picName = picSorce[0]
 	// construct the new image file name by adding "-full.jpeg" to the first part of the array from the previous step
-    const picNew = `"${picName}-full.jpeg"`
+    const picNew = `${picName}-full.jpeg`
 
     console.log(picNew)
 	// insert the viewerTemplate into the top of the body element
@@ -42,7 +51,7 @@ function handleResize() {
     document.body.insertAdjacentHTML("afterbegin", viewerTemplate(picNew,'New pic'));
 	// add a listener to the close button (X) that calls a function called closeViewer when clicked
     const closeButton = document.querySelector('.close-viewer');
-    // closeButton.addEventListener("click", closeViewer);
+    closeButton.addEventListener("click", closeViewer);
 
 }
 
