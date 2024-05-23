@@ -97,10 +97,9 @@ a {
 }
 
 .viewer img {
-    position:absolute;
-    max-height: 17%;
     justify-self: center;
     padding: 5%;
+    max-width: 90%;
 }
 
 .hide {
