@@ -12,13 +12,15 @@
 body{
     color: var(--primary-color);
     font-family: var(--body-font);
-    /* max-width: 800px; */
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 nav {
 
     border-top: 1px solid var(--accent-color);
     border-bottom: 1px solid var(--accent-color);
+    padding: 10px;
 }
 
 nav > ul {
@@ -34,6 +36,7 @@ nav > ul {
 nav li {
     list-style-type: none;
     padding: 10px;
+    font-size: 1.1rem;
 }
 
 a{
@@ -78,6 +81,8 @@ h1, h2 {
 h1 {
     text-align: center;
     font-weight: 700;
+    font-size: 2.5rem;
+    padding: 2%;
 }
 
 h2 {
