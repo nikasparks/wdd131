@@ -23,7 +23,20 @@ const articles = [
 		ages: '12-16',
 		genre: 'Fantasy',
 		stars: '⭐⭐⭐⭐'
-	}
+	},
+	{
+		id: 3,
+		title: "Belgariad Book One: Pawn of Prophecy",
+		date: "Feb 12, 2022",
+		description:
+		'A fierce dispute among the Gods and the theft of a powerful Orb leaves the World divided into five kingdoms. Young Garion, with his "Aunt Pol" and an elderly man calling himself Wolf --a father and daughter granted near-immortality by one of the Gods -- set out on a complex mission.',
+		imgSrc:
+		"https://images-na.ssl-images-amazon.com/images/I/41ZxXA+nInL.jpg",
+		imgAlt: "Book cover for Pawn of Prophecy",
+		ages: "12-16",
+		genre: "Fantasy",
+		stars: "⭐⭐⭐⭐⭐"
+		}
 ]
 const articleHolder = document.querySelector(".article-section");
 
@@ -39,7 +52,7 @@ function createArticle(articles){
 		const detailsRating = document.createElement("p");
 		const contentTitle = document.createElement("h2");
 		const contentImage = document.createElement("img");
-		const contentReview = document.createElement("p");
+		const contentDescription = document.createElement("p");
 
 		// add classes to elements that neeed them.
 		newArticle.classList.add("posted-article");
@@ -50,13 +63,23 @@ function createArticle(articles){
 		detailsGenre.classList.add("genre");
 		detailsRating.classList.add("star-rating");
 
+		//adding content
+		detailsDate.innerHTML =`${article.date}`;
+		detailsAgeRange.innerHTML = `${article.ages}`;
+		detailsGenre.innerHTML = `${article.genre}`;
+		detailsRating.innerHTML = `${article.stars}`;
+		contentTitle.innerHTML = `${article.title}`;
+		contentImage.setAttribute('src',`${article.imgSrc}`); contentImage.setAttribute('alt',`${article.imgAlt}`);
+		contentDescription.innerHTML = `${article.description}`;
+
+
 		articleDetails.appendChild(detailsDate);
 		articleDetails.appendChild(detailsAgeRange);
 		articleDetails.appendChild(detailsGenre);
 		articleDetails.appendChild(detailsRating);
 		articleContent.appendChild(contentTitle);
 		articleContent.appendChild(contentImage);
-		articleContent.appendChild(contentReview);
+		articleContent.appendChild(contentDescription);
 		newArticle.appendChild(articleDetails);
 		newArticle.appendChild(articleContent);
 		articleHolder.appendChild(newArticle);
