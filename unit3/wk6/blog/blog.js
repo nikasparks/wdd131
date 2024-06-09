@@ -29,17 +29,36 @@ const articleHolder = document.querySelector(".article-section");
 
 function createArticle(articles){
 	articles.forEach(article => {
-		const newArticle = document.createElement("article")
-		// const articleDetails
-		// const articleContent
-		// const detailsDate
-		// const detailsAgeRange
-		// const detailsGenre
-		// const detailsRating
-		// const contentTitle
-		// const contentImage
-		// const contentReview
-		newArticle.classList.add("posted-article")
+		// createa rticle elements
+		const newArticle = document.createElement("article");
+		const articleDetails = document.createElement("div");
+		const articleContent = document.createElement("div");
+		const detailsDate = document.createElement("p");
+		const detailsAgeRange = document.createElement("p");
+		const detailsGenre = document.createElement("p");
+		const detailsRating = document.createElement("p");
+		const contentTitle = document.createElement("h2");
+		const contentImage = document.createElement("img");
+		const contentReview = document.createElement("p");
+
+		// add classes to elements that neeed them.
+		newArticle.classList.add("posted-article");
+		articleDetails.classList.add("article-details");
+		articleContent.classList.add("article-content");
+		detailsDate.classList.add("date-posted");
+		detailsAgeRange.classList.add("age-range");
+		detailsGenre.classList.add("genre");
+		detailsRating.classList.add("star-rating");
+
+		articleDetails.appendChild(detailsDate);
+		articleDetails.appendChild(detailsAgeRange);
+		articleDetails.appendChild(detailsGenre);
+		articleDetails.appendChild(detailsRating);
+		articleContent.appendChild(contentTitle);
+		articleContent.appendChild(contentImage);
+		articleContent.appendChild(contentReview);
+		newArticle.appendChild(articleDetails);
+		newArticle.appendChild(articleContent);
 		articleHolder.appendChild(newArticle);
 	});
 	
@@ -48,18 +67,7 @@ function createArticle(articles){
 
 }
 
-function generateDetails(){
-	const articleDetails = document.createElement("div");
-	articleDetails.classList.add("article-details");
-	articleDate
-	articleDetails.appendChild()
-}
-function generateContent(){
-	const articleContent = document.createElement("div");
-	articleContent.classList.add("article-content");
-}
-
-
+createArticle(articles)
 // const newParagraph = document.createElement("p");
 // newParagraph.innerText = "Added with Javascript!";
 // document.body.appendChild(newParagraph);
