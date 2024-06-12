@@ -4,6 +4,10 @@ body{
 
 .card-front, .card-back{
     background-color: lightgray;
+    border-radius: 5px;
+    width: 380px;
+    height: 220px;
+    
 }
 
 form {
@@ -14,14 +18,30 @@ form {
     gap: 20px;
 }
 .card-front {
+    padding: 5%;
+    display: grid;
     grid-row: 1/3;
     grid-column: 1/3;
     z-index: 1;
+    box-shadow: 3px 3px 3px 1px rgba(142, 142, 142, 0.3);
 }
 
 .card-back {
+    padding: 5%;
     grid-row: 2/4;
     grid-column: 2/4;
+    display: grid;
+    grid-template-rows: 1fr 1.5fr;
+    grid-template-columns: 2fr 1fr;
+}
+
+#mag-strip {
+    width: 100%;
+    height: 45px;
+    position: relative;
+    right: -5%;
+    align-self: top;
+    background-color: rgb(55, 55, 55);
 }
 
 button {
