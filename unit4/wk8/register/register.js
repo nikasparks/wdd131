@@ -3,6 +3,7 @@ let count = 1;
 
 function participantTemplate(count){
 
+    const newParticipantSec = document.createElement("section"); g
     // <section class="participant1">
     //         <p>Participant 1</p>
     //         <div class="item">
