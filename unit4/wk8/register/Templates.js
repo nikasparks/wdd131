@@ -1,6 +1,8 @@
-export { participantTemplate };
 
-// const newParticipantBtn = document.querySelector('#add');
+
+const newParticipantBtn = document.querySelector('#add');
+
+const form = document.querySelector('form');
 
 function participantTemplate(count){
     
@@ -136,3 +138,15 @@ function participantTemplate(count){
     newParticipantBtn.parentNode.insertBefore(newParticipant, newParticipantBtn);
 
 };
+
+function successTemplate(info){
+    const successSummary = document.createElement('p');
+
+    successSummary.textContent = `Thank you ${info.adult} for registering. You have registered ${info.participants} participants and owe $${info.cost} in Fees.`;
+    form.parentNode.insertBefore(successSummary,form);
+
+    form.style.display = "none";
+
+};
+
+export { participantTemplate, newParticipantBtn, successTemplate, form };

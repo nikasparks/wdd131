@@ -154,9 +154,28 @@
   button:hover {
     background: #00b33c;
   }
-  @media (max-width: 568px) {
-    .columns div {
-      width: 100%;
-    }
+  .participants {
+    display: grid;
+    grid-template-columns: 1fr;
   }
-  
+
+@media (max-width: 568px) {
+  .columns div {
+    width: 100%;
+  }
+
+}
+@media (min-width: 800px){
+  .participants {
+    /* display: grid; */
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3%;
+  }
+  legend {
+    grid-column: 1 2;
+  }
+  #add {
+    grid-column-start: 1;
+  }
+
+}
