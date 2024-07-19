@@ -1,7 +1,6 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url("https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato");
 
 @import url('https://fonts.googleapis.com/css2?family=Macondo&family=Montserrat');
 
@@ -77,7 +76,22 @@ p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-color);
   padding: 1em;
+
 }
+
+.wireFrame{
+    max-width: 600px;
+}
+
+.galleryHolder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.gallery {
+    max-height: 130px;
+}
+
 .colors {
   width: 100%;
   min-width: 350px;
