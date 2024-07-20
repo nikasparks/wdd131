@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>The Sparks Creative Gallery</title>
+    <meta
+      name="description"
+      content="The site where artist connect with art lovers."
+    />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
+    <!-- <link rel="shortcut icon" href="./favicon_io/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Macondo&family=Montserrat&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <script defer src="js/getDates.js"></script>
+    <script defer src="js/lasttime.js"></script>
+    <script defer src="js/lazyload.js"></script>
+  </head>
+  <body>
+    <!-- <p class="lastTime"></p> -->
+    <header>
+      <picture>
+        <img
+          src="./resources/logo/sparks-logo-300.jpg"
+          class="logo"
+          alt="logo"
+        />
+      </picture>
+      <section class="pagetitle">
+        <h1>The Sparks Creative Gallery</h1>
+        <!-- <q class="motto">We've got you covered from A-Z</q> -->
+      </section>
+    </header>
+    <nav>
+      <ul class="navlist">
+        <!-- <li><a class="ham" href="#">Menu</a></li> -->
+        <li>
+          <a class="active" href="./index.html" target="_self" rel="noreferrer"
+            >Home</a
+          >
+        </li>
+        <!-- <li>
+          <a href="stormcenter.html" target="_self" rel="noreferrer"
+            >Storm Center</a
+          >
+        </li> -->
+        <li>
+          <a href="./gallery.html" target="_self" rel="noreferrer">Gallery</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <h2 class="gal">Welcome</h2>
+      <div class="herodiv">
+        <picture>
+          <source
+            srcset="./resources/images/600/waterPink.jpg 600w"
+            sizes="600px"
+            media="(min-width: 600px) and (max-width: 959px)"
+          />
+          <source
+            srcset="./resources/images/900/waterPink.jpg 900w"
+            sizes="900px"
+            media="(min-width: 960px)"
+          />
+          <img
+            class="heropic"
+            src="./resources/images/300/waterPink.jpg"
+            width="300"
+            alt="Water drop with pink hue."
+          />
+        </picture>
+        <section class="homeAction">
+          <h3>Connecting artists with art lovers for 10 years and counting.</h3>
+        </section>
+      </div>
+      <div class="contactus">
+        <section>
+          <h3>Contact Information</h3>
+          <!-- <address>
+            <a
+              href="https://www.google.com/maps/place/Preston+City+Clerk,+70+W+Oneida+St,+Preston,+ID+83263/@42.0969734,-111.87854,18z/data=!4m6!1m3!3m2!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!2sPreston,+ID+83263!3m1!1s0x8754f7eb6e6de7d1:0x1c5be534f2217780"
+              target="_self"
+              rel="noreferrer"
+              >70 W Oneida St, Preston, ID 83263
+            </a>
+          </address> -->
+          <a href="tel:1235557890">(123) 555-7890</a>
+          <a href="mailto:help@SCG.org">help@SCG.org</a>
+          <div class="social">
+            <a href="https://x.com/" target="_self" rel="noreferrer">
+              <img
+                class="x_twitter"
+                src="./resources/images/social/twitter_x_whiteline_100.png"
+                alt="twitter logo"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              target="_self"
+              rel="noreferrer"
+            >
+              <img
+                class="insta"
+                src="./resources/images/social/instagram_whiteline_100.png"
+                alt="instgram logo"
+              />
+            </a>
+            <a href="https://www.facebook.com/" target="_self" rel="noreferrer">
+              <img
+                class="facebook"
+                src="./resources/images/social/facebook_whiteline_100.png"
+                alt="facebook logo"
+              />
+            </a>
+            <a href="https://linkin.com/" target="_self" rel="noreferrer">
+              <img
+                class="linkedin"
+                src="./resources/images/social/linkedin_whiteline_100.png"
+                alt="linkedin logo"
+              />
+            </a>
+          </div>
+        </section>
+        <!-- <div class="map">
+          <img
+            src="images/preston-map-400w.webp"
+            alt="A map displaying the location of Preston."
+          />
+        </div> -->
+      </div>
+    </main>
+    <footer>
+      <p>
+        &copy; <span id="currentyear"></span> | The Sparks Creative Gallery |
+        Monika Meyers
+      </p>
+      Today's date:&emsp;<span id="currDate"></span>
+    </footer>
+  </body>
+</html>
