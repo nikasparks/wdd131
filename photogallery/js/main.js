@@ -1,5 +1,6 @@
 import { galleryData } from "./galleryPics.js";
 import { galleryTemplate } from "./template.js";
+import { getDate } from "./getDates.js";
 
 
 function buildGallery(galleryData) {
@@ -9,4 +10,5 @@ function buildGallery(galleryData) {
     // console.log(galleryTemplate(galleryData))
 };
 
+getDate();
 buildGallery(galleryData);
