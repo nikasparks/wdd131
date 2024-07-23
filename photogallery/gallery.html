@@ -12,12 +12,11 @@
     <link rel="shortcut icon" href="./resources/favicon_io/favicon.ico" />
     <link rel="stylesheet" href="./styles/style.css" />
 
-    <script defer src="js/getDates.js"></script>
-    <!-- <script defer src="js/lasttime.js"></script> -->
-    <script defer src="js/lazyload.js"></script>
+    <script defer src="./js/getDates.js"></script>
+    <!-- <script defer src="./js/lazyload.js"></script> -->
+    <script defer type="module" src="./js/main.js"></script>
   </head>
   <body>
-    <!-- <p class="lastTime"></p> -->
     <header>
       <picture>
         <img
@@ -28,15 +27,19 @@
       </picture>
       <section class="pagetitle">
         <h1>The Sparks Creative Gallery</h1>
-        <!-- <q class="motto">We've got you covered from A-Z</q> -->
       </section>
     </header>
     <nav>
       <ul class="navlist">
-        <!-- <li><a class="ham" href="#">Menu</a></li> -->
-        <li><a href="index.html" target="_self" rel="noreferrer">Home</a></li>
         <li>
-          <a class="active" href="gallery.html" target="_self" rel="noreferrer"
+          <a href="./index.html" target="_self" rel="noreferrer">Home</a>
+        </li>
+        <li>
+          <a
+            class="active"
+            href="./gallery.html"
+            target="_self"
+            rel="noreferrer"
             >Gallery</a
           >
         </li>
@@ -44,115 +47,48 @@
     </nav>
     <main>
       <h2 class="gal">Gallery</h2>
-      <div class="gallery">
-        <div class="pic">
-          <img
-            src="images/placeholderg.jpg"
-            data-src="images/frozen-lake-300w200h.jpg"
-            alt="frozen lake"
-          />
-          <p>Frozen lake at sunset</p>
-        </div>
-        <div class="pic">
-          <img
-            src="images/placeholderg.jpg"
-            data-src="images/full-bow-rainbow-300w200h.jpg"
-            alt="Full bow rainbow"
-          />
-          <p>Full bow rainbow</p>
-        </div>
-        <div class="pic">
-          <img
-            src="images/placeholderg.jpg"
-            data-src="images/leaf-walk-300w200h.jpg"
-            alt="path covered with leaves"
-          />
-          <p>Walking path covered in fall Leaves</p>
-        </div>
-        <div class="pic">
-          <img
-            src="images/placeholderg.jpg"
-            data-src="images/sunsetonthelake-300w200h.jpg"
-            alt="sunset with boat on lake"
-          />
-          <p>In a boat at sunset</p>
-        </div>
-        <div class="pic">
-          <img
-            src="images/placeholderg.jpg"
-            data-src="images/tree-sun-set-300w200h.jpg"
-            alt="Tree in shadow at sunset"
-          />
-          <p>Tree on the lake in shadow at sunset</p>
-        </div>
-        <div class="pic">
-          <img
-            src="images/placeholderg.jpg"
-            data-src="images/aerial-snow-300w200h.jpg"
-            alt="Aerial View of Snowy path"
-          />
-          <p>Snowy Path from Above</p>
-        </div>
-        <div class="pic">
-          <img
-            src="images/placeholderg.jpg"
-            data-src="images/clouds-and-sun-300w200h.jpg"
-            alt="Sun rays coming through clouds"
-          />
-          <p>Sun rays coming through the clouds</p>
-        </div>
-        <div class="pic">
-          <img
-            src="images/placeholderg.jpg"
-            data-src="images/daisy-sky-300w200h.jpg"
-            alt="Daisy with sky for backdrop"
-          />
-          <p>Daisy with a spring sky backdrop</p>
-        </div>
-        <div class="pic">
-          <img
-            src="images/placeholderg.jpg"
-            data-src="images/dock-300w200h.jpg"
-            alt="Dock at the lake"
-          />
-          <p>Dock at the lake</p>
-        </div>
-      </div>
+      <div class="gallery"></div>
+
       <div class="contactus">
         <section>
           <h3>Contact Information</h3>
-          <address>
-            <a
-              href="https://www.google.com/maps/place/Preston+City+Clerk,+70+W+Oneida+St,+Preston,+ID+83263/@42.0969734,-111.87854,18z/data=!4m6!1m3!3m2!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!2sPreston,+ID+83263!3m1!1s0x8754f7eb6e6de7d1:0x1c5be534f2217780"
-              target="_self"
-              rel="noreferrer"
-              >70 W Oneida St, Preston, ID 83263
-            </a>
-          </address>
-          <a href="tel:1235557890">(123) 555-7890</a><br />
-          <a href="mailto:help@triregion.org">help@triregion.org</a>
+          <a href="tel:1235557890">(123) 555-7890</a>
+          <a href="mailto:help@SCG.org">help@SCG.org</a>
           <div class="social">
-            <a href="https://twitter.com/" target="_self" rel="noreferrer">
-              <img src="images/twitter-100w.webp" alt="twitter logo" />
+            <a href="https://x.com/" target="_self" rel="noreferrer">
+              <img
+                class="x_twitter"
+                src="./resources/images/social/twitter_x_whiteline_100.png"
+                alt="twitter logo"
+              />
             </a>
             <a
               href="https://www.instagram.com/"
               target="_self"
               rel="noreferrer"
             >
-              <img src="images/insta-100w.webp" alt="instgram logo" />
+              <img
+                class="insta"
+                src="./resources/images/social/instagram_whiteline_100.png"
+                alt="instgram logo"
+              />
             </a>
             <a href="https://www.facebook.com/" target="_self" rel="noreferrer">
-              <img src="images/facebook-100w.webp" alt="facebook logo" />
+              <img
+                class="facebook"
+                src="./resources/images/social/facebook_whiteline_100.png"
+                alt="facebook logo"
+              />
+            </a>
+            <a href="https://linkin.com/" target="_self" rel="noreferrer">
+              <img
+                class="linkedin"
+                src="./resources/images/social/linkedin_whiteline_100.png"
+                alt="linkedin logo"
+              />
             </a>
           </div>
         </section>
-        <div class="map">
-          <img
-            src="images/preston-map-400w.webp"
-            alt="A map displaying the location of Preston."
-          />
-        </div>
       </div>
     </main>
     <footer>

@@ -1,6 +1,7 @@
 const galleryData = [
     {
         artist:'Amaya Eguizábal',
+        genre:'Animals',
         images:[
             {
                 title:'Parakeet',
@@ -30,7 +31,7 @@ const galleryData = [
                 id:'cat',
             },
             {
-                title:'Brown and white terrier',
+                title:'Brown and white dog',
                 imageSource:'dogTerrier.jpg',
                 altText:'Brown and white colored terrier.',
                 description:'Brown and white colored terrier.',
@@ -57,10 +58,11 @@ const galleryData = [
                 id:'dogBrown',
             },
         ],
-        acknowledgment:`Image by <a href="https://pixabay.com/users/amayaeguizabal-151412/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1215159">Amaya Eguizábal</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1215159">Pixabay</a>`
+        acknowledgement:`Images by <a href="https://pixabay.com/users/amayaeguizabal-151412/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1215159">Amaya Eguizábal</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1215159">Pixabay</a>`
     },
     {
         artist:'Bessi',
+        genre:'Nature',
         images:[
             {
                 title:'Tree in sun rays',
@@ -83,8 +85,8 @@ const galleryData = [
             {
                 title:'Spring tree',
                 imageSource:'treeSpring.jpg',
-                altText:'Tree in field starting to leaf out.',
-                description:'Tree in field starting to leaf out.',
+                altText:'Tree in field with leaves just starting to leaf out.',
+                description:'Tree in field with leaves just starting to leaf out.',
                 tags:['Trees','Nature'],
                 class:'trees',
                 id:'treeSpring',
@@ -92,8 +94,8 @@ const galleryData = [
             {
                 title:'Summer tree',
                 imageSource:'treeSummer.jpg',
-                altText:'Tree in field in full green.',
-                description:'Tree in field in full green.',
+                altText:'Tree in field with leaves at full growth for summer.',
+                description:'Tree in field with leaves at full growth for summer.',
                 tags:['Trees','Nature'],
                 class:'trees',
                 id:'treeSummer',
@@ -101,14 +103,14 @@ const galleryData = [
             {
                 title:'Fall tree',
                 imageSource:'treeFall.jpg',
-                altText:'Tree in field turning for fall.',
-                description:'Tree in field turning for fall.',
+                altText:'Tree in field with leaves turning orange for fall.',
+                description:'Tree in field with leaves and orange for fall.',
                 tags:['Trees','Nature'],
                 class:'trees',
                 id:'treeFall',
             },
             {
-                title:'Tree with purple sunset',
+                title:'Tree on purple sunset',
                 imageSource:'treePurple.jpg',
                 altText:'Tree with purple sky and clouds as backdrop.',
                 description:'Tree with purple sky and clouds as backdrop.',
@@ -117,10 +119,11 @@ const galleryData = [
                 id:'treePurple',
             },
         ],
-        acknowledgment:`Image by <a href="https://pixabay.com/users/bessi-909086/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=736885">bess.hamiti@gmail.com</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=736885">Pixabay</a>`
+        acknowledgement:`Images by <a href="https://pixabay.com/users/bessi-909086/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=736885">bess.hamiti@gmail.com</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=736885">Pixabay</a>`
     },
     {
         artist:'Margit Wallner',
+        genre:'Macro',
         images:[
             {
                 title:'Droplets',
@@ -135,7 +138,7 @@ const galleryData = [
                 title:'Fire',
                 imageSource:'fire.jpg',
                 altText:'Lit match. Smoke has a blue tint',
-                description:'Burniing match with smoke that has a blue tint in front of a black background.',
+                description:'Burniing match with smoke that has a blue tint.',
                 tags:['Macro'],
                 class:'macro',
                 id:'fire',
@@ -152,15 +155,15 @@ const galleryData = [
             {
                 title:'Soap Bubbles',
                 imageSource:'soapBubbles.jpg',
-                altText:'Soap bubbles in the snow.',
-                description:'Soap bubbles in the snow.',
+                altText:'Soap bubbles resting in the snow.',
+                description:'Soap bubbles resting in the snow.',
                 tags:['Macro'],
                 class:'macro',
                 id:'soapBubbles',
             },
             {
                 title:'Strawberry in milk.',
-                imageSource:'strawberryMilk.jpg',
+                imageSource:'strawberyMilk.jpg',
                 altText:'Strawberry dropped into spoonful of milk',
                 description:'Strawberry dropped into spoonful of milk.',
                 tags:['Macro'],
@@ -177,7 +180,7 @@ const galleryData = [
                 id:'waterDrop',
             },
         ],
-        acknowledgment:`Image by <a href="https://pixabay.com/users/wallner-974517/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5267300">Margit Wallner</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5267300">Pixabay</a>`
+        acknowledgement:`Images by <a href="https://pixabay.com/users/wallner-974517/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5267300">Margit Wallner</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5267300">Pixabay</a>`
     },
 ];
 
