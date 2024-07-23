@@ -15,7 +15,7 @@ function photoLayout (artist) {
    const imageSection =  artist.images.map(image =>{
     return`<figure class="pic ${image.class}" id="${image.id}">
         <h3 class="title">${image.title}</h3>
-        <img src="./resources/images/300/${image.imageSource}" alt="${image.altText}" />
+        <img src="./resources/images/300/${image.imageSource}" width="275" height="350" alt="${image.altText}" />
 	<figcaption>
 		<p class="description">${image.description}</p>
         <p class="tags">Tags: ${grabTags(image)}</p>
