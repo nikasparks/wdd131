@@ -30,6 +30,6 @@ function grabTags (image){
         acc + (i === image.tags.length - 1 ? tag : `${tag}, `)
       ), "");
 };
-// ${photoLayout(artist)} 
+
 export {galleryTemplate};
 
