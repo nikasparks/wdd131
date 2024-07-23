@@ -24,6 +24,7 @@ body{
     background-color: var(--primary-color);
     color: var(--accent2-color);
     text-align: center;
+    position: relative;
 }
 
 
@@ -272,7 +273,6 @@ a {
     padding:50px;
 }
 .pic p{
-    /* background-color: #412234; */
     align-items: center;
     padding-bottom: 10px;
     padding-top: 3px;
@@ -291,15 +291,16 @@ a {
 @media only screen and (min-width: 37.5em){
 
 
-    /* nav ul { display: flex; }
-     nav ul li { flex: 1 1 100%; }*/
+    nav {
+        max-width: fit-content;
+        margin: 0 0 0 auto; 
+    }
 
     .navlist {
         justify-content: flex-end;
     }
     .navlist li {
         display: block; 
-        /* flex: 1 1 auto; */
         font-size: 2rem;
         padding: 20px 0px;
     }
@@ -309,6 +310,10 @@ a {
     .navlist li:last-child a:hover{
         border-radius: 0px 50px 50px 0px;
     }
+    .navlist li:first-child a:hover{
+        border-radius: 50px 0px 0px 50px;
+    }
+
     .active {
         font-size: 2rem;
     }
@@ -419,6 +424,9 @@ a {
 
 @media only screen and (min-width: 60em){
 
+    nav {
+        margin: 0 auto 0 950px;
+    }
     h1, h2 {
         max-width: 980px;
     }
