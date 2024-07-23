@@ -80,17 +80,11 @@ P, footer, span {
     margin: auto;
 }
 
-/* footer a {
-    color: #ffe9a1;
-    text-decoration-line: underline;
-    line-height: 1.9;
-} */
 
 footer {
     background-color: var(--secondary-color);
     max-width: 980px;
-    flex: 0 1 100%;
-    margin: 0 auto;
+    margin: 0;
     padding: 10px;
     border-radius:0px 0px 25px 25px;
 }
@@ -98,8 +92,8 @@ footer {
 /* Navigation */
 nav {
     background-color: var(--terciary-color);
-    max-width: 980px;
-    margin: 0 auto;
+    /* max-width: fit-content; */
+    margin: 0;
     border-radius: 50px;
 }
 
@@ -255,16 +249,12 @@ a {
     margin: auto;
 }
 
-.gallery img[data-src] {
-    filter: blur(0.2em);
-}
 
 .gallery img {
     padding:0px;
-    /* max-height: 200px; */
     max-width: 100%;
-    filter: blur(0em);
-    transition: filter 0.5s;
+    /* filter: blur(0em);
+    transition: filter 0.5s; */
     
 }
 
@@ -285,14 +275,20 @@ a {
     display: inline-block;    
 }
 
-/* comment */
 
 @media only screen and (min-width: 37.5em){
-
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        align-content: center;
+        flex-wrap: wrap;
+    }
 
     nav {
         max-width: fit-content;
-        margin: 0 0 0 auto; 
+        margin: 0; 
+        align-self: flex-end;
     }
 
     .navlist {
@@ -418,10 +414,8 @@ a {
 
 @media only screen and (min-width: 60em){
 
-    body {
-        display: flex;
-        flex-direction: column;
-    }
+
+    
 
     h1, h2 {
         max-width: 980px;
@@ -433,6 +427,10 @@ a {
 
     h3 {
         font-size: 1.9rem;
+    }
+
+    footer {
+        margin: 0;
     }
 
     .gallery{
