@@ -67,8 +67,8 @@ const galleryData = [
             {
                 title:'Tree in sun rays',
                 imageSource:'treeSunlight.jpg',
-                altText:'Tree in field lit by sun rays breaking through clouds.',
-                description:'Tree in field lit by sun rays breaking through clouds.',
+                altText:'Tree in field lit by cloud breaking sun rays.',
+                description:'Tree in field lit by cloud breaking sun rays.',
                 tags:['Trees','Nature'],
                 class:'trees',
                 id:'treeSunlight',
@@ -94,8 +94,8 @@ const galleryData = [
             {
                 title:'Summer tree',
                 imageSource:'treeSummer.jpg',
-                altText:'Tree in field with leaves at full growth for summer.',
-                description:'Tree in field with leaves at full growth for summer.',
+                altText:'Tree in field with full grown summer leaves.',
+                description:'Tree in field with full grown summer leaves.',
                 tags:['Trees','Nature'],
                 class:'trees',
                 id:'treeSummer',

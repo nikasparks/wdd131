@@ -36,7 +36,7 @@ header, h1, h2, h3, h4{
 }
 
 header{
-    max-width: 980px;
+    max-width: 1050px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -83,7 +83,7 @@ P, footer, span {
 
 footer {
     background-color: var(--secondary-color);
-    max-width: 980px;
+    max-width: 1050px;
     margin: 0;
     padding: 10px;
     border-radius:0px 0px 25px 25px;
@@ -194,7 +194,7 @@ section .homeAction{
 /* Contact us */
 .contactus{
     font-family: var(--paragraph-font);
-    max-width: 980px;
+    max-width: 1050px;
     background-color: var(--secondary-color);
     margin: 10px auto 0px auto;
     padding: 10px;
