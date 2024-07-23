@@ -8,22 +8,30 @@
       name="description"
       content="The photo gallery of the photographers that are members of the Sparks Creative Gallery."
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Macondo&family=Montserrat&display=swap"
       rel="stylesheet"
-    />
+    /> -->
+    <!-- <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Macondo&family=Montserrat&display=swap"
+      as="fonts"
+    /> -->
     <link rel="shortcut icon" href="./resources/favicon_io/favicon.ico" />
+    <!-- <link rel="preload" href="./styles/style.css" as="style" /> -->
     <link rel="stylesheet" href="./styles/style.css" />
 
-    <script defer type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/main.js"></script>
   </head>
   <body>
     <header>
       <picture>
         <img
           src="./resources/logo/sparks-logo-300.jpg"
+          width="128"
+          height="128"
           class="logo"
           alt="logo"
         />
@@ -51,7 +59,7 @@
     <main>
       <h2 class="gal">Gallery</h2>
       <div class="gallery">
-        <div class="pic">
+        <!-- <div class="pic">
           <img src="https://placehold.co/275x325" />
         </div>
         <div class="pic">
@@ -59,7 +67,7 @@
         </div>
         <div class="pic">
           <img src="https://placehold.co/275x325" />
-        </div>
+        </div> -->
       </div>
 
       <div class="contactus">
@@ -72,6 +80,8 @@
               <img
                 class="x_twitter"
                 src="./resources/images/social/twitter_x_whiteline_100.png"
+                width="25%"
+                height="25%"
                 alt="twitter logo"
               />
             </a>
@@ -83,6 +93,8 @@
               <img
                 class="insta"
                 src="./resources/images/social/instagram_whiteline_100.png"
+                width="30%"
+                height="30%"
                 alt="instgram logo"
               />
             </a>
@@ -90,6 +102,8 @@
               <img
                 class="facebook"
                 src="./resources/images/social/facebook_whiteline_100.png"
+                width="45%"
+                height="45%"
                 alt="facebook logo"
               />
             </a>
@@ -97,6 +111,8 @@
               <img
                 class="linkedin"
                 src="./resources/images/social/linkedin_whiteline_100.png"
+                width="25%"
+                height="25%"
                 alt="linkedin logo"
               />
             </a>

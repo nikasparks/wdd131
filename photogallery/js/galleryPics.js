@@ -5,7 +5,7 @@ const galleryData = [
         images:[
             {
                 title:'Parakeet',
-                imageSource:'bird.jpg',
+                imageSource:'bird',
                 altText:'Parakeet on back of furniture.',
                 description:'Parakeet on back of furniture.',
                 tags:['Animals'],
@@ -14,7 +14,7 @@ const galleryData = [
             },
             {
                 title:'Hedgehog',
-                imageSource:'hedgehog.jpg',
+                imageSource:'hedgehog',
                 altText:'Hedgehog looking at the camera.',
                 description:'Hedgehog looking at the camera.',
                 tags:['Animals'],
@@ -23,7 +23,7 @@ const galleryData = [
             },
             {
                 title:'Cat with roses',
-                imageSource:'cat.jpg',
+                imageSource:'cat',
                 altText:'Cat lounging next to vase of roses.',
                 description:'Cat lounging next to vase of roses.',
                 tags:['Animals'],
@@ -32,7 +32,7 @@ const galleryData = [
             },
             {
                 title:'Brown and white dog',
-                imageSource:'dogTerrier.jpg',
+                imageSource:'dogTerrier',
                 altText:'Brown and white colored terrier.',
                 description:'Brown and white colored terrier.',
                 tags:['Animals'],
@@ -41,7 +41,7 @@ const galleryData = [
             },
             {
                 title:'Black Labrador',
-                imageSource:'dogBlack.jpg',
+                imageSource:'dogBlack',
                 altText:'Black labrador snuggled on a white bed.',
                 description:'Black labrador snuggled on a white bed.',
                 tags:['Animals'],
@@ -50,7 +50,7 @@ const galleryData = [
             },
             {
                 title:'Dog and guinea pig',
-                imageSource:'dogBrown.jpg',
+                imageSource:'dogBrown',
                 altText:'Black mouth cur laying next to a guinea pig.',
                 description:'Black mouth cur laying next to a guinea pig.',
                 tags:['Animals'],
@@ -66,7 +66,7 @@ const galleryData = [
         images:[
             {
                 title:'Tree in sun rays',
-                imageSource:'treeSunlight.jpg',
+                imageSource:'treeSunlight',
                 altText:'Tree in field lit by cloud breaking sun rays.',
                 description:'Tree in field lit by cloud breaking sun rays.',
                 tags:['Trees','Nature'],
@@ -75,7 +75,7 @@ const galleryData = [
             },
             {
                 title:'Tree with red flowers',
-                imageSource:'treeRoses.jpg',
+                imageSource:'treeRoses',
                 altText:'Tree in green field with red flowers.',
                 description:'Tree in green field with red flowers.',
                 tags:['Trees','Nature'],
@@ -84,7 +84,7 @@ const galleryData = [
             },
             {
                 title:'Spring tree',
-                imageSource:'treeSpring.jpg',
+                imageSource:'treeSpring',
                 altText:'Tree in field with leaves just starting to leaf out.',
                 description:'Tree in field with leaves just starting to leaf out.',
                 tags:['Trees','Nature'],
@@ -93,7 +93,7 @@ const galleryData = [
             },
             {
                 title:'Summer tree',
-                imageSource:'treeSummer.jpg',
+                imageSource:'treeSummer',
                 altText:'Tree in field with full grown summer leaves.',
                 description:'Tree in field with full grown summer leaves.',
                 tags:['Trees','Nature'],
@@ -102,7 +102,7 @@ const galleryData = [
             },
             {
                 title:'Fall tree',
-                imageSource:'treeFall.jpg',
+                imageSource:'treeFall',
                 altText:'Tree in field with leaves turning orange for fall.',
                 description:'Tree in field with leaves and orange for fall.',
                 tags:['Trees','Nature'],
@@ -111,7 +111,7 @@ const galleryData = [
             },
             {
                 title:'Tree on purple sunset',
-                imageSource:'treePurple.jpg',
+                imageSource:'treePurple',
                 altText:'Tree with purple sky and clouds as backdrop.',
                 description:'Tree with purple sky and clouds as backdrop.',
                 tags:['Trees','Nature'],
@@ -127,7 +127,7 @@ const galleryData = [
         images:[
             {
                 title:'Droplets',
-                imageSource:'droplets.jpg',
+                imageSource:'droplets',
                 altText:'Two water droplets reflecting a flower.',
                 description:'Two water droplets reflecting a flower.',
                 tags:['Macro'],
@@ -136,7 +136,7 @@ const galleryData = [
             },
             {
                 title:'Fire',
-                imageSource:'fire.jpg',
+                imageSource:'fire',
                 altText:'Lit match. Smoke has a blue tint',
                 description:'Burniing match with smoke with a blue tint.',
                 tags:['Macro'],
@@ -145,7 +145,7 @@ const galleryData = [
             },
             {
                 title:'Light bulb',
-                imageSource:'lightBulb.jpg',
+                imageSource:'lightBulb',
                 altText:'Lit light bulb with sparks radiating from behind it.',
                 description:'Lit light bulb with sparks radiating from behind it.',
                 tags:['Macro'],
@@ -154,7 +154,7 @@ const galleryData = [
             },
             {
                 title:'Soap Bubbles',
-                imageSource:'soapBubbles.jpg',
+                imageSource:'soapBubbles',
                 altText:'Soap bubbles resting in the snow.',
                 description:'Soap bubbles resting in the snow.',
                 tags:['Macro'],
@@ -163,7 +163,7 @@ const galleryData = [
             },
             {
                 title:'Strawberry in milk.',
-                imageSource:'strawberyMilk.jpg',
+                imageSource:'strawberyMilk',
                 altText:'Strawberry dropped into spoonful of milk',
                 description:'Strawberry dropped into spoonful of milk.',
                 tags:['Macro'],
@@ -172,7 +172,7 @@ const galleryData = [
             },
             {
                 title:'Water drop',
-                imageSource:'waterDrop.jpg',
+                imageSource:'waterDrop',
                 altText:'Water drop hitting the water.',
                 description:'Water drop hitting the water with yellow hue.',
                 tags:['Macro'],
